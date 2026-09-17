@@ -1,0 +1,52 @@
+# Dependências
+node_modules/
+package-lock.json
+
+# Ambiente
+.env
+.env.local
+.env.production
+
+# WhatsApp authentication (arquivos sensíveis)
+whatsapp_auth/
+*.session
+*.auth
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Backup
+*.backup
+*.bak
+.env
+whatsapp_auth/
+node_modules/
+wrangler.jsonc
+
+# Configurações do Wrangler
+wrangler.jsonc
+wrangler.toml
+.wrangler/
+.cloudflare/
+
+# Backend (não deve estar no frontend)
+server.js
+package.json
+package-lock.json
+node_modules/
+.env
+whatsapp_auth/
+package.json
+package-lock.json
+package.json
+package-lock.json
